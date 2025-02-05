@@ -1,0 +1,37 @@
+{
+    "pages": [
+      {
+        "url": "https://example.com/camping-trends-2025",
+        "name": "Latest Camping Trends for 2025",
+        "description": "Discover the latest camping trends, including cold camping, glamping at luxury hotels, and eco-friendly camping practices."
+      },
+      {
+        "url": "https://example.com/winter-camping-guide",
+        "name": "Winter Camping Guide: Tips & Gear",
+        "description": "Learn how to camp in winter with specialized gear like insulated sleeping pads, portable heaters, and layered clothing."
+      },
+      {
+        "url": "https://example.com/glamping-winter-2025",
+        "name": "Luxury Glamping Trends for Winter 2025",
+        "description": "Glamping resorts are introducing heated floors, cozy bedding, and private hot tubs to attract winter adventurers."
+      },
+      {
+        "url": "https://example.com/sustainable-camping",
+        "name": "Eco-Friendly Camping: Sustainable Trends",
+        "description": "Explore how campers are embracing sustainability with solar-powered equipment and biodegradable materials."
+      },
+      {
+        "url": "https://example.com/best-winter-camping-destinations",
+        "name": "Top Winter Camping Destinations",
+        "description": "A guide to the best places for winter camping, from national parks to remote snowy landscapes."
+      }
+    ],
+    "related": [
+      "Best winter camping gear 2025",
+      "How to stay warm while camping in the snow",
+      "Top eco-friendly camping practices",
+      "Glamping vs. traditional camping: What’s best for winter?",
+      "Best winter camping destinations worldwide"
+    ]
+  }
+  

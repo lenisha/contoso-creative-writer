@@ -35,14 +35,11 @@ def _make_request(path, params=None):
 @trace
 def find_information(query, market="en-US"):
     """Find information using the Bing Search API"""
-    params = {"q": query, "mkt": market, "count": 5}
-    items = _make_request("v7.0/search", params)
-    pages = [
-        {"url": a["url"], "name": a["name"], "description": a["snippet"]}
-        for a in items["webPages"]["value"]
-    ]
-    related = [a["text"] for a in items["relatedSearches"]["value"]]
-    return {"pages": pages, "related": related}
+
+    file_path = "articles.json"
+    with open(file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+    return data
 
 
 @trace
