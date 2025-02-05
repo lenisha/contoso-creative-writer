@@ -1,0 +1,25 @@
+{
+    "entities": [
+      {
+        "name": "Elon Musk",
+        "description": "Elon Musk is a business magnate and investor. He is the founder of SpaceX and Tesla, among other ventures."
+      },
+      {
+        "name": "Microsoft Corporation",
+        "description": "Microsoft Corporation is a multinational technology company that develops, manufactures, licenses, supports, and sells software, electronics, and computers."
+      },
+      {
+        "name": "New York City",
+        "description": "New York City, often simply called New York, is the most populous city in the United States, known for its financial, cultural, and entertainment industries."
+      },
+      {
+        "name": "Artificial Intelligence",
+        "description": "Artificial Intelligence (AI) refers to the simulation of human intelligence in machines that are programmed to think and learn."
+      },
+      {
+        "name": "The Louvre",
+        "description": "The Louvre is the world's largest art museum and a historic monument in Paris, France, known for housing the Mona Lisa."
+      }
+    ]
+  }
+  

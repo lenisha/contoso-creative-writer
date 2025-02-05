@@ -1,0 +1,40 @@
+{
+    "articles": [
+      {
+        "name": "Tech Innovations in 2025",
+        "url": "https://example.com/tech-innovations-2025",
+        "description": "Experts discuss the latest technological advancements set to reshape industries in 2025.",
+        "provider": "Tech News Daily",
+        "datePublished": "2025-02-05T10:30:00Z"
+      },
+      {
+        "name": "AI Breakthroughs This Year",
+        "url": "https://example.com/ai-breakthroughs",
+        "description": "New AI models are surpassing expectations in language understanding and robotics.",
+        "provider": "AI Weekly",
+        "datePublished": "2025-02-04T15:45:00Z"
+      },
+      {
+        "name": "Market Trends in Renewable Energy",
+        "url": "https://example.com/renewable-energy-trends",
+        "description": "Solar and wind power investments continue to rise amid global energy shifts.",
+        "provider": "Green Energy Today",
+        "datePublished": "2025-02-03T08:20:00Z"
+      },
+      {
+        "name": "Space Exploration Missions Planned for 2025",
+        "url": "https://example.com/space-missions-2025",
+        "description": "NASA and private space firms reveal ambitious plans for the next year.",
+        "provider": "Space Insider",
+        "datePublished": "2025-02-02T12:10:00Z"
+      },
+      {
+        "name": "Cybersecurity Threats on the Rise",
+        "url": "https://example.com/cybersecurity-threats",
+        "description": "Experts warn of increasing cyber threats targeting global businesses and individuals.",
+        "provider": "CyberSec Watch",
+        "datePublished": "2025-02-01T09:55:00Z"
+      }
+    ]
+  }
+  

@@ -45,33 +45,20 @@ def find_information(query, market="en-US"):
 @trace
 def find_entities(query, market="en-US"):
     """Find entities using the Bing Entity Search API"""
-    params = "?mkt=" + market + "&q=" + urllib.parse.quote(query)
-    items = _make_request(f"v7.0/entities{params}")
-    entities = []
-    if "entities" in items:
-        entities = [
-            {"name": e["name"], "description": e["description"]}
-            for e in items["entities"]["value"]
-        ]
-    return entities
+    
+    file_path = "entities.json"
+    with open(file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+    return data
 
 
 @trace
 def find_news(query, market="en-US"):
     """Find images using the Bing News Search API"""
-    params = {"q": query, "mkt": market, "count": 5}
-    items = _make_request("v7.0/news/search", params)
-    articles = [
-        {
-            "name": a["name"],
-            "url": a["url"],
-            "description": a["description"],
-            "provider": a["provider"][0]["name"],
-            "datePublished": a["datePublished"],
-        }
-        for a in items["value"]
-    ]
-    return articles
+    file_path = "news.json"
+    with open(file_path, "r", encoding="utf-8") as file:
+        data = json.load(file)
+    return data
 
 
 @trace
